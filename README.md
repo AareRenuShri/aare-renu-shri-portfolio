@@ -1,6 +1,6 @@
 # Aare Renu Shri — Portfolio
 
-Personal portfolio website — live at [aarenushri.github.io/aare-renu-shri-portfolio](https://aarenushri.github.io/aare-renu-shri-portfolio/)
+Personal portfolio website — live at [aarerenushri.github.io/aare-renu-shri-portfolio](https://aarerenushri.github.io/aare-renu-shri-portfolio/)
 
 A minimal, type-driven single-page portfolio built with React and Vite, featuring an editorial photo collage, an interactive project explorer, and a contact section.
 
