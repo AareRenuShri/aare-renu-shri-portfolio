@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Local design references & master copies — kept out of the repo.
+# The site itself only uses src/assets/* and public/cv.pdf.
+/refer5.png
+/refer7.png
+/refersetup.jpg
+/our-look.png
+/copy.png
+/cv.pdf

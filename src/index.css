@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=Pinyon+Script&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#f4f3f0] font-sans text-neutral-900 antialiased;
+  }
+
+  ::selection {
+    @apply bg-neutral-900 text-[#f4f3f0];
+  }
+}
+
+@layer utilities {
+  /* Thin halo in the page background colour painted behind the script glyphs.
+     Invisible against the background, but keeps the signature's ascender tips
+     clearly readable wherever they cross the heavy black display heading. */
+  .script-outline {
+    -webkit-text-stroke: 0.06em #f4f3f0;
+    paint-order: stroke fill;
+  }
+
+  /* Project detail panel entrance */
+  @keyframes panel-in {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-panel-in {
+    animation: panel-in 0.4s ease both;
+  }
+}
