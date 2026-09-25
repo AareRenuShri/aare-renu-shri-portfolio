@@ -88,7 +88,7 @@ export default function Contact() {
 
         {/* CV button */}
         <a
-          href="/cv.pdf"
+          href={`${import.meta.env.BASE_URL}cv.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-14 inline-flex items-center justify-center rounded-full bg-neutral-900 px-12 py-4 text-sm font-bold uppercase tracking-[0.25em] text-[#f4f3f0] transition-colors duration-200 hover:bg-neutral-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-neutral-900/30 sm:px-14 sm:py-5 sm:text-base lg:mt-16"
